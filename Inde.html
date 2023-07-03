@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form per la creazione di Pet</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Form per la creazione di Pet</h1>
+
+    <form id="petForm">
+      <label for="petName">Nome dell'animale:</label>
+      <input type="text" id="petName" required /><br />
+
+      <label for="ownerName">Nome del proprietario:</label>
+      <input type="text" id="ownerName" required /><br />
+
+      <label for="species">Specie:</label>
+      <input type="text" id="species" required /><br />
+
+      <label for="breed">Razza:</label>
+      <input type="text" id="breed" required /><br />
+
+      <button type="submit">Aggiungi Pet</button>
+    </form>
+
+    <h2>Lista degli animali domestici:</h2>
+    <ul id="petList"></ul>
+    <script src="script.js"></script>
+  </body>
+</html>
